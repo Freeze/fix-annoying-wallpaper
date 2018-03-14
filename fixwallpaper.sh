@@ -4,4 +4,4 @@ mv /cygdrive/c/Windows/Web/Wallpaper/PNHSwallpaper.jpg /cygdrive/c/Windows/Web/W
 mv /cygdrive/c/Windows/Web/Wallpaper/Corporate/corporate1.jpg /cygdrive/c/Windows/Web/Wallpaper/Corporate/corporate1.jpg
 cp /cygdrive/c/Documents\ and\ Settings/$(whoami)/Desktop/misc/angus.jpg /cygdrive/c/Windows/Web/Wallpaper/PNHSwallpaper.jpg
 cp /cygdrive/c/Documents\ and\ Settings/$(whoami)/Desktop/misc/angus.jpg /cygdrive/c/Windows/Web/Wallpaper/Corporate/corporate1.jpg
-
+RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters 1, True
